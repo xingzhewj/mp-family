@@ -1,0 +1,13 @@
+<!--upload.wxml-->
+<view class="food-container">
+    <view class="breakfast-wrap">
+        <view class="food-image" bindtap="uploadImg">
+          <image src="{{msImgUrl}}" style="width:100%;height:100%;"></image>
+        </view>
+        <input class="food-name" placeholder="请输入菜名" maxlength="10" bindinput="changeFoodName" />
+        <picker bindchange="changeType" value="{{currentType}}" range="{{foodType}}">
+          <view class="food-type">{{foodType[currentType]}}</view>
+        </picker>
+    </view>
+</view>
+<button type="primary" class="upload-btn" size="large" bindtouchstart="updateFoodTable">开始上传</button>

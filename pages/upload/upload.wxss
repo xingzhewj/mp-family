@@ -1,0 +1,23 @@
+/* upload.wxss */
+.food-name {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.food-image {
+  width:200px;
+  height:200px;
+  margin:0 auto;
+}
+
+.upload-btn {
+  margin: 30px 10px;
+}
+
+.food-type {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}

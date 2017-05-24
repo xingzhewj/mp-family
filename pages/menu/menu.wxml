@@ -1,0 +1,42 @@
+<!-- 菜单管理 -->
+<view class="menu-container">
+    <view class="banner-slider">
+        <swiper indicator-dots="{{indicatorDots}}"
+          autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+          <block wx:for="{{imgUrls}}" wx:key="">
+            <swiper-item>
+              <image src="{{item}}" class="slide-image" width="355" height="150"/>
+            </swiper-item>
+          </block>
+        </swiper>
+    </view>
+    <view class="menu-wrap">
+        <view class="menu-item">
+            <text class="menu-title">早餐</text>
+            <view class="menu-info-list">
+              <view class="menu-info-item" wx:for="{{menuBreakList}}">
+              <image style="width:100%;height:100px;" src="{{item.imgUrl}}"></image>
+              <text class="menu-info-title">{{item.name}}</text>
+              </view>
+            </view>
+        </view>
+        <view class="menu-item">
+            <text class="menu-title">午餐</text>
+            <view class="menu-info-list">
+              <view class="menu-info-item" wx:for="{{menuLunchList}}">
+              <image style="width:100%;height:100px;" src="{{item.imgUrl}}"></image>
+              <text class="menu-info-title">{{item.name}}</text>
+              </view>
+            </view>
+        </view>
+        <view class="menu-item">
+            <text class="menu-title">晚餐</text>
+            <view class="menu-info-list">
+              <view class="menu-info-item" wx:for="{{menuDinnerList}}">
+              <image style="width:100%;height:100px;" src="{{item.imgUrl}}"></image>
+              <text class="menu-info-title">{{item.name}}</text>
+              </view>
+            </view>
+        </view>
+    </view>
+</view>

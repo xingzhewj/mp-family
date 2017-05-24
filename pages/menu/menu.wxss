@@ -1,0 +1,30 @@
+.slide-image {
+  width: 100%;
+}
+.menu-title {
+  display: block;
+  height: 30px;
+  padding: 5px;
+  line-height: 30px;
+  background-color: #e4e4e4;
+  border-left: 3px solid #09bb07;
+}
+
+.menu-info-list {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.menu-info-item {
+  width: 32%;
+  border: 1px solid #e4e4e4;
+}
+
+.menu-info-title {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  opacity: .6;
+}

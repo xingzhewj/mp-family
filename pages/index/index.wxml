@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+    <view class="link-container">
+      <navigator class="link-item"  url="/pages/menu/menu" hover-class="navigator-hover">菜谱页</navigator>
+      <navigator class="link-item"  url="/pages/upload/upload" hover-class="navigator-hover">设置页</navigator>
+    </view>
+  </view>
+</view>
