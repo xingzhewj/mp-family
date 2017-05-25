@@ -4,6 +4,6 @@
  */
 
 module.exports = {
-    menuListUrl: 'http://v2.mashupcloud.cn/LIST/FoodMenu/',
-    showImgUrl: 'http://v2.mashupcloud.cn/system/filesystem_show.do'
+    menuListUrl: 'https://v2.mashupcloud.cn/LIST/FoodMenu/',
+    showImgUrl: 'https://v2.mashupcloud.cn/system/filesystem_show.do'
 };

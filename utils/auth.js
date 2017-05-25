@@ -10,7 +10,7 @@ const config = {
 function reqTOken(cb) {
   wx.request({
     method: 'GET',
-    url: 'http://v2.mashupcloud.cn/developer/auth.do',
+    url: 'https://v2.mashupcloud.cn/developer/auth.do',
     data: config,
     success(res) {
         const status = res.statusCode;

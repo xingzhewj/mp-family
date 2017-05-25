@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-  uploadUrl: 'http://v2.mashupcloud.cn/system/filesystem_upload.do',
-  showImgUrl: 'http://v2.mashupcloud.cn/system/filesystem_show.do',
-  updateUrl: 'http://v2.mashupcloud.cn/ADD/FoodMenu/'
+  uploadUrl: 'https://v2.mashupcloud.cn/system/filesystem_upload.do',
+  showImgUrl: 'https://v2.mashupcloud.cn/system/filesystem_show.do',
+  updateUrl: 'https://v2.mashupcloud.cn/ADD/FoodMenu/'
 };
